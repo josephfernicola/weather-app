@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: lightblue;
+}
+.top {
+    background-color: rgb(20, 5, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.bottom {
+    background-color: lightblue;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalDisplay {
+    width: 500px;
+    height: 470px;
+    background-color:  lightblue;
+    color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.humidity, .feelsLike, .current, .name, .wind {
+    font-size: 40px;
+}
+
+.weatherInput {
+    border: none;
+    background-color: rgb(142, 209, 231);
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+.weatherInput:focus {
+    outline: none;
+}
+
+.submit {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(142, 209, 231);
+    color: rgb(20, 5, 73);
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+}
+.submit:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.listItem:hover {
+    cursor: pointer;
+    background-color: rgb(163, 160, 160);
+}
+.listItem {
+    padding: 15px;
+}
+
+.matches {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    z-index: 5;
+
+}
+.match-list {
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-right: 90px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 5;
+    position: absolute;
+}
+
+.errorActive {
+    border: solid 3px red;
+}
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.all-degrees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.hourly, .daily {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.current {
+    text-align: center;
+    width: 300px;
+}
