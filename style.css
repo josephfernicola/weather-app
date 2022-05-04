@@ -126,6 +126,7 @@ body {
  }
  .match-list {
      width: 150px;
+     margin-left: 100px;
  }
 
  .weatherInput {
@@ -135,7 +136,6 @@ body {
  .searchBar {
      display: grid;
      grid-template-rows: 30px 30px;
-     
      justify-items: center;
  }
 html, body {
