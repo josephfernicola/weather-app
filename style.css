@@ -121,13 +121,15 @@ body {
 
 @media (max-width: 1000px) {
  .header {
-     font-size: 13px;
+     font-size: 20px;
  }
  .match-list {
-     width: 100px;
+     width: 150px;
  }
 
  .searchBar {
-     width: 300px;
+     margin-left: 90px;
+     width: 400px;
  }
+
 }
