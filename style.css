@@ -128,9 +128,15 @@ body {
      width: 150px;
  }
 
+ .weatherInput {
+     width: 180px;
+ }
+
  .searchBar {
-     margin-left: 90px;
-     width: 400px;
+     display: grid;
+     grid-template-rows: 30px 30px;
+     
+     justify-items: center;
  }
 html, body {
     overflow-x: hidden;
