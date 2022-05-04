@@ -118,3 +118,16 @@ body {
     text-align: center;
     width: 300px;
 }
+
+@media (max-width: 1000px) {
+ .header {
+     font-size: 13px;
+ }
+ .match-list {
+     width: 100px;
+ }
+
+ .searchBar {
+     width: 300px;
+ }
+}
