@@ -131,5 +131,8 @@ body {
      margin-left: 90px;
      width: 400px;
  }
+body {
+    width: 100vw;
+}
 
 }
